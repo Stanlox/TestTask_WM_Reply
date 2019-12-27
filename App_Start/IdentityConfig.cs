@@ -21,7 +21,7 @@ namespace WM_Reply
         public Task SendAsync(IdentityMessage message)
         {
 
-            string from = "";
+            string from = "login@gmail.ru";
             string password = "password";
 
             SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
